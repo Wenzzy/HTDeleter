@@ -19,10 +19,8 @@ const DATA_ARRAY = {
             url: /^https:\/\/funpay.ru\/orders\/$/g,
             deleted: [
                 "#content > div > div > div.tc.tc-finance.table-hover.table-clickable.dyn-table.orders-table > div.dyn-table-body > a:nth-child(1)",
-                "#content > div > div > div.tc.tc-finance.table-hover.table-clickable.dyn-table.orders-table > div.dyn-table-body > a:nth-child(1)",
-                "#content > div > div > div.tc.tc-finance.table-hover.table-clickable.dyn-table.orders-table > div.dyn-table-body > a:nth-child(1)",
-                "#content > div > div > div.tc.tc-finance.table-hover.table-clickable.dyn-table.orders-table > div.dyn-table-body > a:nth-child(1)",
             ],
+            deleteMultiply: 4,
         },
         {
             url: /https:\/\/funpay.ru\/orders\/trade.*/g,
