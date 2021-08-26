@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "HT deleter",
+  "description": "Delete selected elements from page, also can change text on many elements",
+  "version": "0.0.1",
+  "author": "Wenzzy",
+  "browser_action": {
+    "default_title": "Deleting/Changing elements",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "inject.css"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}

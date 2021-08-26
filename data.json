@@ -1,0 +1,10 @@
+{
+  "sites": [
+    {
+      "domain": "funpay.ru",
+      "deleted": [
+        ".logo-color"
+      ]
+    }
+  ]
+}
